@@ -13,7 +13,7 @@ int main(){             // where execution begns
         reversedWord[begin] = userWord[end];               
         end --;
     }
-    reversedWord[begin] = '\0';   
+    reversedWord[begin] = '\0';
     printf("%s\n",reversedWord);
     return 0;   // terminate the code
 }
